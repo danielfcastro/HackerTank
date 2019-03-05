@@ -1,4 +1,4 @@
-package br.com.daniel.challenges.substring.patternsyntaxchecker;
+package br.com.daniel.challenges.basic.string.patternsyntaxchecker;
 
 import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;

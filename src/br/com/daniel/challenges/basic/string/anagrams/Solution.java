@@ -1,4 +1,4 @@
-package br.com.daniel.challenges.substring.anagrams;
+package br.com.daniel.challenges.basic.string.anagrams;
 
 public class Solution {
 	public static boolean isAnagram(String a, String b) {

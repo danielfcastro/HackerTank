@@ -1,4 +1,4 @@
-package br.com.daniel.challenges.substring.tokens;
+package br.com.daniel.challenges.basic.string.tokens;
 
 import java.util.Arrays;
 

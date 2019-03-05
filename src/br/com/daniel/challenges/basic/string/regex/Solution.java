@@ -1,4 +1,4 @@
-package br.com.daniel.challenges.string.regex;
+package br.com.daniel.challenges.basic.string.regex;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

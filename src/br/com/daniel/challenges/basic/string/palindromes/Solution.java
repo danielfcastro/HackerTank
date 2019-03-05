@@ -1,4 +1,4 @@
-package br.com.daniel.challenges.substring.palindromes;
+package br.com.daniel.challenges.basic.string.palindromes;
 
 public class Solution {
 	public boolean isPalindrome(String value) {

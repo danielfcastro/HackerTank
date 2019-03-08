@@ -9,11 +9,8 @@ import java.util.Scanner;
 
 public class Solution {
     public static int find(int[] arr, int x, int y){
-        int basis = arr[x-1];
-        if(x < y && arr[x] ==0) {
-        	return 1;
-        }
-        if(basis %2 == 0) {
+        if(x < y && arr[x] ==0) return 1;
+        if(arr[x-1] %2 == 0) {
             return 2;
         }else return 1;
     }

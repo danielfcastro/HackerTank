@@ -27,5 +27,6 @@ public class Solution {
         Scanner scan = new Scanner(System.in);
         String s = scan.next();
         System.out.println(bytesToHex(getSHA256(s)));
+        scan.close();
     } 
 }

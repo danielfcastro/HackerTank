@@ -24,6 +24,7 @@ public class StaticInitializerBlock {
         if(B >= breadthHIGH || H >= heightHIFG){
             flag = false;
         }
+        sc.close();
     }
 
 public static void main(String[] args){

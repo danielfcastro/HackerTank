@@ -87,6 +87,7 @@ public class Datatypes {
 			String x = sc.next();
 			getFittableTypes(x);
 		}
+		sc.close();
 	}
 
 }

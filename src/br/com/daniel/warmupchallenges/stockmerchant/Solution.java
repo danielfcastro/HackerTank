@@ -1,5 +1,7 @@
 package br.com.daniel.warmupchallenges.stockmerchant;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -34,29 +36,29 @@ public class Solution {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
-        //BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
-        int n = 10;//scanner.nextInt();
-        //scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+        int n = scanner.nextInt();
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
-        int[] ar = {1, 1, 3, 1, 2, 1, 3, 3, 3, 3};//new int[n];
+        int[] ar = new int[n];
 
-        //String[] arItems = scanner.nextLine().split(" ");
-        //scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+        String[] arItems = scanner.nextLine().split(" ");
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
-        //for (int i = 0; i < n; i++) {
-            //int arItem = Integer.parseInt(arItems[i]);
-            //ar[i] = arItem;
-        //}
+        for (int i = 0; i < n; i++) {
+            int arItem = Integer.parseInt(arItems[i]);
+            ar[i] = arItem;
+        }
 
         int result = sockMerchant(n, ar);
         System.out.println(result);
-        //bufferedWriter.write(String.valueOf(result));
-        //bufferedWriter.newLine();
+        bufferedWriter.write(String.valueOf(result));
+        bufferedWriter.newLine();
 
-        //bufferedWriter.close();
+        bufferedWriter.close();
 
-        //scanner.close();
+        scanner.close();
     }
 }
 

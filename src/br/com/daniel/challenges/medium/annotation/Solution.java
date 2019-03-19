@@ -58,5 +58,6 @@ public class Solution {
 			}
 			testCases--;
 		}
+		in.close();
 	}
 }

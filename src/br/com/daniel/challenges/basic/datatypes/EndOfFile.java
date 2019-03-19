@@ -16,6 +16,7 @@ public class EndOfFile {
 			counter++;
 		}
 		System.out.println(sb.toString());
+		sc.close();
 	}
 
 	public static void main(String[] args) {
